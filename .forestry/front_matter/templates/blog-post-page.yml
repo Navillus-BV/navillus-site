@@ -28,4 +28,5 @@ pages:
 - src/data/pages/blog/introducing-svelte-entity-store.md
 - src/data/pages/blog/jamstack-2.0.md
 - src/data/pages/blog/keeping-it-simple-with-astro.md
+- src/data/pages/blog/the-power-of-simplicity.md
 - src/data/pages/blog/web-accessibility-hidden-links-make-all-the-difference.md
