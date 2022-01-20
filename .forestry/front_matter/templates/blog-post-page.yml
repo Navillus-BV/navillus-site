@@ -7,15 +7,6 @@ fields:
   config: {}
   template: page
   label: Page
-- name: tweet_id
-  type: text
-  config:
-    required: false
-  label: Tweet Id
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
 - name: author
   type: select
   default: []
@@ -28,6 +19,15 @@ fields:
       file: 
       path: 
   label: Author
+- name: tweet_id
+  type: text
+  config:
+    required: false
+  label: Tweet Id
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - src/data/pages/blog/animated-page-transitions-in-astro-with-swup.md
 - src/data/pages/blog/astro-forestry-cms.md
