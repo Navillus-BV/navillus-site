@@ -65,13 +65,5 @@ fields:
       label: Link URL
     label: Call to Action
   label: Hero
-- name: blocks
-  type: blocks
-  label: Blocks
-  template_types:
-  - badges-block
-  config:
-    min: 
-    max: 
 pages:
 - src/data/pages/jamstack-developers-for-hire.md
