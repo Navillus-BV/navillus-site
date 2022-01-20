@@ -20,4 +20,5 @@ pages:
 - src/data/pages/blog/astro-forestry-cms.md
 - src/data/pages/blog/astro-foresty-cms-revisited.md
 - src/data/pages/blog/astro-netlify-cms.md
+- src/data/pages/blog/astro-snipcart.md
 - src/data/pages/blog/web-accessibility-hidden-links-make-all-the-difference.md
