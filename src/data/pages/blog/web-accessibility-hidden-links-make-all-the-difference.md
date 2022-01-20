@@ -12,6 +12,7 @@ permalink: "/blog/accessibility-skip-to-content"
 published: true
 blocks: []
 tweet_id: ''
+author: src/data/authors/tony-sull.json
 
 ---
 Accessibility is a bit of a polarizing topic when it comes to web technologies, but it doesn't have to be. Accessibility isn't an all or nothing game and more often then not there are small, simple changes that can make a huge difference in both keyboard and screen reader support. Let's take a look at an accessibility easter egg that [may not be new](https://webaim.org/techniques/skipnav/) but is still sorely lacking on many of even the most popular sites.
