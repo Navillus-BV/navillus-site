@@ -2,21 +2,6 @@
 label: Page
 hide_body: false
 fields:
-- name: template
-  type: select
-  default: []
-  config:
-    required: true
-    options:
-    - legal
-    - page
-    - post
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Template
 - name: permalink
   type: text
   config:
