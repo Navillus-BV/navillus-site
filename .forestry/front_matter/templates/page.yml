@@ -47,11 +47,11 @@ fields:
   label: Last Modified At
   description: ''
   config:
-    required: true
+    required: false
     date_format: ''
     time_format: 
     display_utc: true
-  default: now
+  default: ''
 - name: blocks
   type: blocks
   label: Blocks
