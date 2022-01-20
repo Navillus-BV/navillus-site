@@ -11,5 +11,6 @@ permalink: "/blog/astro-plus-netlify-cms"
 published: true
 blocks: []
 tweet_id: "1407792706546458625"
+author: src/data/authors/tony-sull.json
 
 ---
