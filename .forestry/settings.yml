@@ -10,7 +10,7 @@ sections:
   path: src/data/pages
   label: Pages
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - hero-page
   - legal-page
