@@ -30,4 +30,9 @@ fields:
       schema:
         format: markdown
     label: Content
+  - name: cta
+    type: include
+    config: {}
+    template: link
+    label: Call To Action
   label: Hero
