@@ -7,7 +7,7 @@ date: '2021-05-07T17:39:49Z'
 tags:
 - jamstack
 permalink: "/blog/jamstack-2_0"
-published: false
+published: true
 last_modified_at: '2021-06-05T00:00:00Z'
 blocks: []
 tweet_id: "1401184029832007680"
