@@ -50,10 +50,20 @@ fields:
         format: markdown
     label: Content
   - name: cta
-    type: include
+    type: field_group
     config: {}
-    template: link
-    label: Call To Action
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Display Text
+    - name: href
+      type: text
+      config:
+        required: false
+      label: Link URL
+    label: Call to Action
   label: Hero
 pages:
 - src/data/pages/jamstack-developers-for-hire.md
