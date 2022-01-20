@@ -13,11 +13,11 @@ fields:
   - name: items
     type: field_group_list
     fields:
-    - name: title
+    - name: alt
       type: text
       config:
         required: true
-      label: Title
+      label: Description
     - name: icon
       type: select
       default: []
