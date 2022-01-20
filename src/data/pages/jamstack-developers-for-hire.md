@@ -14,6 +14,9 @@ hero:
     trends.
   text: How we can help
   href: "/#services"
+  cta:
+    text: How we can help
+    href: "/#services"
 permalink: "/"
 social_image: "/uploads/share.png"
 published: true
