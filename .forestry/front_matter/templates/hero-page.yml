@@ -19,14 +19,24 @@ fields:
   config: {}
   fields:
   - name: title
-    type: text
+    type: textarea
+    default: "**JAMSTACK DEVELOPERS FOR HIRE**"
     config:
       required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+      max: 50
     label: Title
   - name: subtitle
-    type: text
+    type: textarea
+    default: "Every problem is **different**.\n\n  \n Your **solutions** should be,
+      too."
     config:
       required: true
+      wysiwyg: true
+      schema:
+        format: markdown
     label: Subtitle
   - name: content
     type: textarea
