@@ -1,4 +1,19 @@
 ---
 label: Author
 hide_body: true
-fields: []
+fields:
+- name: first_name
+  type: text
+  config:
+    required: true
+  label: First name
+- name: last_name
+  type: text
+  config:
+    required: true
+  label: Last name
+- name: url
+  type: text
+  config:
+    required: true
+  label: URL
