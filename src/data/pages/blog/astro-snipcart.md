@@ -8,7 +8,7 @@ tags:
 - snipcart
 - jamstack
 permalink: "/blog/astro-plus-snipcart"
-published: false
+published: true
 last_modified_at: ''
 blocks: []
 tweet_id: "1411055265479368707"
