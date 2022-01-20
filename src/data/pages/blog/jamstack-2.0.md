@@ -11,6 +11,7 @@ published: true
 last_modified_at: '2021-06-05T00:00:00Z'
 blocks: []
 tweet_id: "1401184029832007680"
+author: src/data/authors/tony-sull.json
 
 ---
 It's time we officially bump the [major version](https://semver.org/) of Jamstack to `2.0`. The term "Jamstack" has always been a bit of a marketing success for a general architecture idea, but most developers took it to mean 90's era websites with nothing but static files on a CDN. The latest frontend framework and serverless infrastructure features are combining to shake up the game - Jamstack is growing up.
