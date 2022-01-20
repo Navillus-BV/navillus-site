@@ -1,6 +1,6 @@
 ---
 label: Hero Page
-hide_body: false
+hide_body: true
 fields:
 - name: template
   type: text
