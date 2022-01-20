@@ -11,7 +11,7 @@ sections:
   label: Authors
   create: documents
   match: "*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - author
 - type: directory

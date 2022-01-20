@@ -16,6 +16,18 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: author
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: authors
+      file: 
+      path: 
+  label: Author
 pages:
 - src/data/pages/blog/animated-page-transitions-in-astro-with-swup.md
 - src/data/pages/blog/astro-forestry-cms.md
