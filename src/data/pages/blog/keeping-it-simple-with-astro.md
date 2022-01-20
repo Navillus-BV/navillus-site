@@ -12,6 +12,7 @@ published: true
 last_modified_at: '2021-06-25T00:00:00Z'
 blocks: []
 tweet_id: "1404538796767694857"
+author: src/data/authors/tony-sull.json
 
 ---
 Frontend frameworks have taken over much of the web, but the question remains - do we really need all that JavaScript in the browser?
