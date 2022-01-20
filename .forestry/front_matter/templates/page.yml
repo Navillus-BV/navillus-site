@@ -1,4 +1,67 @@
 ---
 label: Page
 hide_body: false
-fields: []
+fields:
+- name: template
+  type: select
+  default: []
+  config:
+    required: true
+    options:
+    - legal
+    - page
+    - post
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Template
+- name: permalink
+  type: text
+  config:
+    required: true
+  label: Permalink
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  default: Jamstack developers for hire
+- name: description
+  type: text
+  config:
+    required: true
+  label: Description
+  default: We specialize in finding simple solutions to complex software problems.
+    We value data-driven decisions and accessibility over this month's latest tech
+    trends.
+- name: social_image
+  type: file
+  config:
+    maxSize: 64
+  label: Social Image
+- name: published
+  type: boolean
+  label: Published
+- name: date
+  type: datetime
+  label: Published Date
+  description: ''
+  config:
+    required: true
+    date_format: ''
+    time_format: 
+    display_utc: true
+    export_format: ''
+  default: now
+- name: last_modified_at
+  type: datetime
+  label: Last Modified At
+  description: ''
+  config:
+    required: true
+    date_format: ''
+    time_format: 
+    display_utc: true
+  default: now
