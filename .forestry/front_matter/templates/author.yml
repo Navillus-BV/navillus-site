@@ -1,6 +1,7 @@
 ---
 label: Author
 hide_body: true
+display_field: first_name
 fields:
 - name: first_name
   type: text
