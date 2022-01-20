@@ -1,4 +1,16 @@
 ---
 label: Legal Page
 hide_body: false
-fields: []
+fields:
+- name: template
+  type: text
+  config:
+    required: true
+  label: Template
+  hidden: true
+  default: legal
+- name: page
+  type: include
+  config: {}
+  template: page
+  label: Page
