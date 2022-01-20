@@ -16,3 +16,5 @@ fields:
   type: tag_list
   default: []
   label: Tags
+pages:
+- src/data/pages/blog/web-accessibility-hidden-links-make-all-the-difference.md
