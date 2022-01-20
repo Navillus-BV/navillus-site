@@ -2,6 +2,11 @@
 label: Badges Block
 hide_body: true
 fields:
+- name: block
+  type: include
+  config: {}
+  template: ui-block
+  label: Block
 - name: groups
   type: field_group_list
   fields:
