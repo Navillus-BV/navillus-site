@@ -1,6 +1,7 @@
 ---
 label: Page
-hide_body: false
+hide_body: true
+display_field: title
 fields:
 - name: permalink
   type: text
@@ -26,6 +27,7 @@ fields:
   config:
     maxSize: 64
   label: Social Image
+  default: "/uploads/share.png"
 - name: published
   type: boolean
   label: Published
