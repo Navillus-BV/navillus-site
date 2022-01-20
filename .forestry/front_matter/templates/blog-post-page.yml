@@ -1,4 +1,18 @@
 ---
 label: Blog Post Page
 hide_body: false
-fields: []
+fields:
+- name: block
+  type: include
+  config: {}
+  template: ui-block
+  label: Block
+- name: tweet_id
+  type: text
+  config:
+    required: false
+  label: Tweet Id
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
