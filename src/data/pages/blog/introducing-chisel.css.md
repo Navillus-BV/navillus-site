@@ -7,7 +7,7 @@ tags:
 - intro
 - css
 permalink: "/blog/introducing-chisel"
-published: false
+published: true
 last_modified_at: '2021-06-05T00:00:00Z'
 blocks: []
 tweet_id: "1401971725412282374"
