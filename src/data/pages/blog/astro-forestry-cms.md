@@ -3,7 +3,7 @@ title: Astro + Forestry CMS
 description: Static sites powered by Forestry's git-based CMS, made easy.
 social_image: "/uploads/2021-06-28-astro-plus-forestry.jpg"
 date: '2021-06-28T17:30:03Z'
-last_modified_at: '2022-01-20T17:30:03Z'
+last_modified_at: ''
 tags:
 - astro
 - cms
