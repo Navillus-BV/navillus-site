@@ -11,6 +11,7 @@ published: true
 last_modified_at: '2021-06-05T00:00:00Z'
 blocks: []
 tweet_id: ''
+author: src/data/authors/tony-sull.json
 
 ---
 A (**w**ork-**i**n-**p**rogress) generic entity store for Svelte projects.
