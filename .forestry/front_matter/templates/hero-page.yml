@@ -40,7 +40,9 @@ fields:
     label: Subtitle
   - name: content
     type: textarea
-    default: ''
+    default: We specialize in finding simple solutions to complex software problems.
+      We value data-driven decisions and accessibility over this month's latest tech
+      trends.
     config:
       required: true
       wysiwyg: true
