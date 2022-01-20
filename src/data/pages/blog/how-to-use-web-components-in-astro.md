@@ -8,7 +8,7 @@ tags:
 - astro
 - web components
 permalink: "/blog/web-components-in-astro"
-published: false
+published: true
 last_modified_at: ''
 blocks: []
 tweet_id: "1429903001574068232"
