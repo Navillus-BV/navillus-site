@@ -11,6 +11,7 @@ permalink: "/blog/astro-plus-forestry"
 published: true
 blocks: []
 tweet_id: "1409606618854088714"
+author: src/data/authors/tony-sull.json
 
 ---
 This is a follow-up post to our [Astro + Netlify CMS](/blog/astro-plus-netlify-cms) demo - check that one out first if you haven't read it yet!
