@@ -7,3 +7,27 @@ fields:
   config: {}
   template: page
   label: Page
+- name: hero
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: subtitle
+    type: text
+    config:
+      required: true
+    label: Subtitle
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Content
+  label: Hero
