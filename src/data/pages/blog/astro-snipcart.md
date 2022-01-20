@@ -12,6 +12,7 @@ published: true
 last_modified_at: ''
 blocks: []
 tweet_id: "1411055265479368707"
+author: src/data/authors/tony-sull.json
 
 ---
 **tl;dr;** Check out the live demo [here](https://demo-astro-snipcart.netlify.app/), or if you're feeling brave dive right into the [GitHub Repo](https://github.com/Navillus-BV/demo-astro-snipcart) begging for a refactor!
