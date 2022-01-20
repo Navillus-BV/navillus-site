@@ -10,6 +10,7 @@ published: true
 last_modified_at: '2021-07-20T00:00:00Z'
 blocks: []
 tweet_id: "1417535981058764809"
+author: src/data/authors/tony-sull.json
 
 ---
 Not too long ago, the Navillus site was rewritten from the ground up in [Astro](https://astro.build). Since then we've had quite a bit of interest in why we jumped to Astro, how it went, and what we learned. I'll do my best to answer the common questions here, but feel free to reach out on [Twitter](https://twitter.com/navillus_dev) if we missed anything!
