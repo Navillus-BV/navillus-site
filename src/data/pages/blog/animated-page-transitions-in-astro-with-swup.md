@@ -1,19 +1,20 @@
 ---
 title: Animated page transitions in Astro with Swup
-description: Static doesn't mean boring! Easily add client routing and page transition
+description:
+  Static doesn't mean boring! Easily add client routing and page transition
   animations with swup.js
 social_image: "/uploads/2021-07-24-astro-plus-swup.jpg"
-date: '2021-07-24T17:34:53Z'
+date: "2021-07-24T17:34:53Z"
 tags:
-- astro
-permalink: "/astro-plus-swup"
+  - astro
+permalink: "/blog/astro-plus-swup"
 published: true
-last_modified_at: ''
+last_modified_at: ""
 blocks: []
 tweet_id: "1418952288476012545"
 author: src/data/authors/tony-sull.json
-
 ---
+
 I can't be the only developer that has come across a beautifully designed website with top notch animations only to burn an afternoon trying to figure out how exactly they did it. Usually the answer is a combination of 5 different libraries and a pile of JavaScript and CSS being sent over the wire.
 
 Animations don't have to be all or nothing though, and it really can be best to start small and slowly grow and polish the user experience. [Swup](https://swup.js.org) is an excellent starting point, offering all the basics you need to hook up client-side routing with page transition animations. Even better, Swup's API supports [plugins](https://swup.js.org/plugins) with over a dozen pre-made plugins for the most common use cases and a simple API to roll your own custom plugin.
@@ -59,9 +60,9 @@ npm install --save-dev swup
 Initialize swup in `/public/app.js`...
 
 ```js
-import Swup from 'swup'
+import Swup from "swup";
 
-const swup = new Swup()
+const swup = new Swup();
 ```
 
 Finally, import `app.js` in the shared layout...
@@ -84,12 +85,12 @@ npm install --save-dev @swup/slide-theme
 ```
 
 ```js
-import Swup from 'swup'
-import SwupSlideTheme from '@swup/slide-theme'
+import Swup from "swup";
+import SwupSlideTheme from "@swup/slide-theme";
 
 const swup = new Swup({
   plugins: [new SwupSlideTheme()],
-})
+});
 ```
 
 ### Supported scoped styles
@@ -105,13 +106,13 @@ npm install --save-dev @swup/head-plugin
 ```
 
 ```js
-import Swup from 'swup'
-import SwupHeadPlugin from '@swup/head-plugin'
-import SwupSlideTheme from '@swup/slide-theme'
+import Swup from "swup";
+import SwupHeadPlugin from "@swup/head-plugin";
+import SwupSlideTheme from "@swup/slide-theme";
 
 const swup = new Swup({
   plugins: [new SwupHeadPlugin(), new SwupSlideTheme()],
-})
+});
 ```
 
 Plugins to the rescue again! This plugin will replace the old `<head>` with the version in the new page when navigating - it even has [config options](https://swup.js.org/plugins/head-plugin#options) should you need to persist some styles or meta tags on every page!
@@ -127,14 +128,14 @@ npm install --save-dev @swup/a11y-plugin
 ```
 
 ```js
-import Swup from 'swup'
-import SwupA11yPlugin from '@swup/a11y-plugin'
-import SwupHeadPlugin from '@swup/head-plugin'
-import SwupSlideTheme from '@swup/slide-theme'
+import Swup from "swup";
+import SwupA11yPlugin from "@swup/a11y-plugin";
+import SwupHeadPlugin from "@swup/head-plugin";
+import SwupSlideTheme from "@swup/slide-theme";
 
 const swup = new Swup({
   plugins: [new SwupA11yPlugin(), new SwupHeadPlugin(), new SwupSlideTheme()],
-})
+});
 ```
 
 ## Progressively enhanced, for free!
