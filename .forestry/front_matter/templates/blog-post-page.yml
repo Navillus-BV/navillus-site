@@ -23,6 +23,7 @@ pages:
 - src/data/pages/blog/astro-netlify-cms.md
 - src/data/pages/blog/astro-snipcart.md
 - src/data/pages/blog/converting-our-site-to-astro.md
+- src/data/pages/blog/including-json-ld-structured-data-in-svelte.md
 - src/data/pages/blog/introducing-chisel.css.md
 - src/data/pages/blog/introducing-svelte-entity-store.md
 - src/data/pages/blog/jamstack-2.0.md
