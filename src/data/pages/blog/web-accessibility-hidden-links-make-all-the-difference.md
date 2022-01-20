@@ -9,7 +9,7 @@ date: '2021-05-10T17:26:48Z'
 last_modified_at: '2021-07-21T17:26:48Z'
 tags: []
 permalink: "/blog/accessibility-skip-to-content"
-published: false
+published: true
 blocks: []
 tweet_id: ''
 
