@@ -13,6 +13,7 @@ sections:
   match: "**/*"
   templates:
   - hero-page
+  - legal-page
 upload_dir: public/uploads
 public_path: "/uploads"
 front_matter_path: ''
