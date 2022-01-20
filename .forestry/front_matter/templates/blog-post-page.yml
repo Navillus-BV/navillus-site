@@ -17,4 +17,5 @@ fields:
   default: []
   label: Tags
 pages:
+- src/data/pages/blog/astro-foresty-cms-revisited.md
 - src/data/pages/blog/web-accessibility-hidden-links-make-all-the-difference.md
