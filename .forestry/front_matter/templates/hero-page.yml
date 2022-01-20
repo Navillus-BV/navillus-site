@@ -2,6 +2,13 @@
 label: Hero Page
 hide_body: false
 fields:
+- name: template
+  type: text
+  config:
+    required: true
+  label: Template
+  hidden: true
+  default: page
 - name: page
   type: include
   config: {}
