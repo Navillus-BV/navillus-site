@@ -11,6 +11,7 @@ published: true
 last_modified_at: '2021-06-05T00:00:00Z'
 blocks: []
 tweet_id: "1401971725412282374"
+author: src/data/authors/tony-sull.json
 
 ---
 Have you ever really tried rendering some HTML without any CSS? It's a hot mess! Modern browsers are [operating systems](https://www.google.com/chromebook/chrome-os/) unto themselves these days - I don't envy anyone who has to sift through the complexity to add even a basic feature to a browser these days. But damn do I wish they would add spend a couple days to ship some decent looking default styles for HTML5 elements!
