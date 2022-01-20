@@ -1,6 +1,7 @@
 ---
 label: Badges Block
 hide_body: true
+display_field: title
 fields:
 - name: block
   type: include
