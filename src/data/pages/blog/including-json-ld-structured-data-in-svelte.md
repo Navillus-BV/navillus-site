@@ -12,6 +12,7 @@ published: true
 last_modified_at: '2021-06-05T00:00:00Z'
 blocks: []
 tweet_id: ''
+author: src/data/authors/tony-sull.json
 
 ---
 Ever wonder how Google search results include shopping results for products, or location results for local businesses? Their search bot is constantly being improved to better find that kind of content on your site, but ultimately if you care at all about SEO on your site it's important to include [structured data](https://schema.org/) on the page.
