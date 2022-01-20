@@ -24,4 +24,5 @@ pages:
 - src/data/pages/blog/astro-snipcart.md
 - src/data/pages/blog/converting-our-site-to-astro.md
 - src/data/pages/blog/introducing-chisel.css.md
+- src/data/pages/blog/introducing-svelte-entity-store.md
 - src/data/pages/blog/web-accessibility-hidden-links-make-all-the-difference.md
