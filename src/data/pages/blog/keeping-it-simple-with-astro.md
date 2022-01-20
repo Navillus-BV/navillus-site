@@ -8,7 +8,7 @@ tags:
 - svelte
 - performance
 permalink: "/blog/keeping-it-simple-with-astro"
-published: false
+published: true
 last_modified_at: '2021-06-25T00:00:00Z'
 blocks: []
 tweet_id: "1404538796767694857"
