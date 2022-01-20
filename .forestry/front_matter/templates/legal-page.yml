@@ -15,4 +15,5 @@ fields:
   template: page
   label: Page
 pages:
+- src/data/pages/privacy-policy.md
 - src/data/pages/terms-conditions.md
