@@ -12,6 +12,7 @@ published: true
 last_modified_at: '2021-06-05T00:00:00Z'
 blocks: []
 tweet_id: "1402315819015622658"
+author: src/data/authors/tony-sull.json
 
 ---
 We've all heard about "mobile first" designs, but what about JavaScript last? It'll need a catchier name to really stick, but many of us ignore how important it is that basic site functionality works even if JavaScript is disabled or has failed. Browsing the web with JavaScript disabled can be a real pain but it happens more then you'd expect.
