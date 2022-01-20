@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: src/data/pages
   label: Pages
@@ -11,8 +13,6 @@ sections:
   match: "**/*"
   templates:
   - hero-page
-- type: heading
-  label: Content
 upload_dir: public/uploads
 public_path: "/uploads"
 front_matter_path: ''
