@@ -11,6 +11,7 @@ permalink: "/blog/astro-plus-forestry-revisited"
 published: true
 blocks: []
 tweet_id: "1422604180984934404"
+author: src/data/authors/tony-sull.json
 
 ---
 It's been just over a month since the original [Astro + Forestry CMS](/blog/astro-plus-forestry) demo, but things have been [moving quickly](https://github.com/snowpackjs/astro/blob/main/packages/astro/CHANGELOG.md) in Astro land! We'll build upon the original demo, go ahead and check out the first post if you haven't done so already!
