@@ -52,3 +52,11 @@ fields:
     time_format: 
     display_utc: true
   default: now
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - badges-block
+  config:
+    min: 
+    max: 
