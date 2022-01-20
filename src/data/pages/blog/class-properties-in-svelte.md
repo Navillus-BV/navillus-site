@@ -12,6 +12,7 @@ published: true
 last_modified_at: ''
 blocks: []
 tweet_id: "1408488530779717636"
+author: src/data/authors/tony-sull.json
 
 ---
 I've noticed an interesting pattern when a [React](https://reactjs.org/) developer gives [Svelte](https://svelte.dev) a try - they almost immediately add a `className` property to their first Svelte component.
