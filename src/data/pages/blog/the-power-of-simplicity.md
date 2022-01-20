@@ -12,6 +12,7 @@ published: true
 last_modified_at: ''
 blocks: []
 tweet_id: "1424057461368135681"
+author: src/data/authors/tony-sull.json
 
 ---
 Our last post highlighted the benefits of using [Astro](https://astro.build) and [Forestry CMS](https://forestry.io) (catch up [here](/blog/astro-plus-forestry-revisited) in case you missed it). Forestry actually shared our post with a really important point that I thought was worth digging into with a proper blog post.
