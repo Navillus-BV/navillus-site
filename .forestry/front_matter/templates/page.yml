@@ -57,6 +57,7 @@ fields:
   label: Blocks
   template_types:
   - badges-block
+  - contact-block
   - features-block
   config:
     min: 
