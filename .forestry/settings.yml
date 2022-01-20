@@ -3,7 +3,16 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: src/data/pages
+  label: Pages
+  create: all
+  match: "**/*"
+  templates:
+  - hero-page
+- type: heading
+  label: Content
 upload_dir: public/uploads
 public_path: "/uploads"
 front_matter_path: ''
