@@ -17,3 +17,5 @@ fields:
   config:
     required: true
   label: URL
+pages:
+- src/data/authors/tony-sull.json
