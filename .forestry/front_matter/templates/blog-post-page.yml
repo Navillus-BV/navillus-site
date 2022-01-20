@@ -2,11 +2,11 @@
 label: Blog Post Page
 hide_body: false
 fields:
-- name: block
+- name: page
   type: include
   config: {}
-  template: ui-block
-  label: Block
+  template: page
+  label: Page
 - name: tweet_id
   type: text
   config:
@@ -15,4 +15,4 @@ fields:
 - name: tags
   type: tag_list
   default: []
-  label: tags
+  label: Tags
