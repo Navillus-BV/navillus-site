@@ -43,5 +43,40 @@ fields:
       file: 
       path: 
   label: Twitter Card
+- name: contact
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: url
+    type: text
+    config:
+      required: true
+    label: URL
+  - name: icon
+    type: select
+    default: []
+    config:
+      required: true
+      options:
+      - devto
+      - email
+      - github
+      - twitter
+      - rss
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Icon
+  config:
+    min: 1
+    max: 
+    labelField: 
+  label: Contact
 pages:
 - src/data/site.json
