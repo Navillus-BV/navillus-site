@@ -10,7 +10,7 @@ import { getSeo } from '../../utils/seo.ts'
 const [blogPage] = Astro.fetchContent('../../data/pages/blog.md')
 
 export async function getStaticPaths({ paginate, rss }) {
-  function includeReadingTime(post) {
+  function includeReadingTime(post: CMS.BlogPostPage) {
     return {
       ...post,
       minutes: readMinutesForPage(post),
@@ -62,8 +62,6 @@ export async function getStaticPaths({ paginate, rss }) {
 
 const { page } = Astro.props
 const { data: posts } = page
-
-console.log(posts.map(p => p.date))
 ---
 
 <Layout {...blogPage}>

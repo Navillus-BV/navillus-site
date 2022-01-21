@@ -7,6 +7,8 @@ import type { WithContent } from '../utils/cms.ts'
 const { content, ...page } = Astro.props as WithContent<CMS.LegalPage>
 
 const { blocks = [], hero } = page
+
+console.log(Object.keys(Astro.props))
 ---
 
 <Layout {...page}>

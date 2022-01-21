@@ -1,0 +1,69 @@
+---
+import PostPreview from '../../../components/PostPreview.astro'
+import UIBlock from '../../../components/blocks/UIBlock.astro'
+import Layout from '../../../layouts/Hero.astro'
+import { getPage, isPublished } from '../../../utils/cms.ts'
+import { readMinutesForPage } from '../../../utils/markdown.ts'
+import { uniq } from '../../../utils/uniq.ts'
+
+const [blogPage] = Astro.fetchContent('../../../data/pages/blog.md')
+
+export async function getStaticPaths({ paginate }) {
+  function title(tag) {
+    return `Posts tagged "${tag}"`
+  }
+
+  function description(tag) {
+    return `All posts from the Navillus Blog tagged with “${tag}”`
+  }
+
+  function includeReadingTime(post: CMS.BlogPostPage) {
+    return {
+      ...post,
+      minutes: readMinutesForPage(post),
+    }
+  }
+
+  function sortPosts(a: CMS.BlogPostPage, b: CMS.BlogPostPage) {
+    return new Date(b.date).getTime() - new Date(a.date).getTime()
+  }
+
+  const allPosts = Astro.fetchContent('../../../data/pages/blog/*.md')
+    .filter(isPublished)
+    .map(getPage)
+    .map(includeReadingTime)
+    .sort(sortPosts)
+
+  const allTags: string[] = uniq(allPosts.map(({ tags }) => tags).flat())
+
+  const paths = allTags.map((tag) => {
+    const posts = allPosts.filter((p) => p.tags.indexOf(tag) >= 0)
+
+    return paginate(posts, {
+      params: { tag },
+      props: {
+        title: title(tag),
+        description: description(tag),
+        posts,
+      },
+    })
+  })
+
+  return paths
+}
+
+const { title, description, page } = Astro.props
+const { data: posts } = page
+
+const layoutPage = {
+  ...getPage(blogPage),
+  title,
+  description
+}
+---
+
+<Layout {...layoutPage}>
+  <UIBlock {title} alt>
+    {posts.map((post) => <PostPreview post={post} />)}
+  </UIBlock>
+</Layout>
