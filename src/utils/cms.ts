@@ -27,12 +27,6 @@ type MarkdownContent = {
 
 export type WithContent<T> = T & MarkdownContent;
 
-export function getAuthor(author: AstroContent & CMS.Author): CMS.Author {
-  const { astro, content, Content, file, ...rest } = author;
-
-  return rest;
-}
-
 export function getPage(page: AstroContent & CMS.Page): WithContent<CMS.Page> {
   const { astro, content, Content, file, ...rest } = page;
 
