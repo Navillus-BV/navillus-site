@@ -1,15 +1,16 @@
 ---
 template: legal
 title: Terms & Conditions
-description: We specialize in finding simple solutions to complex software problems.
+description:
+  We specialize in finding simple solutions to complex software problems.
   We value data-driven decisions and accessibility over this month's latest tech trends.
-date: '2020-05-03T16:49:40Z'
-last_modified_at: '2020-05-03T16:49:40Z'
+date: "2020-05-03T16:49:40Z"
+last_modified_at: "2020-05-03T16:49:40Z"
 permalink: "/terms"
-social_image: ''
+social_image: ""
 published: true
-
 ---
+
 Please read these terms and conditions before using Our Service.
 
 ## 1. Interpretation and Definitions
@@ -114,4 +115,4 @@ By continuing to access or use Our Service after those revisions become effectiv
 
 ## 14. Contact Us
 
-If you have any questions about these Terms and Conditions, You can contact us at: info@kamfly.io
+If you have any questions about these Terms and Conditions, You can contact us at: [info@navillus.nl](mailto:info@navillus.nl)
