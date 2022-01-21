@@ -8,13 +8,11 @@ interface Props {
 
 const { page } = Astro.props as Props
 const seo = getSeo(page)
-
-console.log(seo)
 ---
 
 <html lang='en'>
   <head>
-    <MainHead />
+    <MainHead {seo} />
   </head>
 
   <body>
