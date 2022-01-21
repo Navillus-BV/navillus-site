@@ -1,4 +1,9 @@
 ---
 label: Collection Page
 hide_body: true
-fields: []
+fields:
+- name: page
+  type: include
+  config: {}
+  template: page
+  label: Page
