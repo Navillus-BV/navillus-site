@@ -2,13 +2,9 @@
 import Footer from '../components/Footer.astro'
 import MainHead from '../components/MainHead.astro'
 import Navigation from '../components/Navigation.astro'
-import { getSeo } from '../utils/seo.ts';
+import { getSeo, WithContent } from '../utils/seo.ts';
 
-interface Props {
-  page: CMS.Page
-}
-
-const { page } = Astro.props as Props
+const { content, ...page } = Astro.props as WithContent<CMS.Page>
 const seo = getSeo(page)
 ---
 
@@ -26,6 +22,8 @@ const seo = getSeo(page)
 
     <main id='main'>
       <slot />
+
+      {content?.html}
     </main>
 
     <Footer />

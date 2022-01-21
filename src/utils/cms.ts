@@ -18,12 +18,14 @@ type AstroContent = {
   file: URL;
 };
 
-type WithContent<T> = T & {
+type MarkdownContent = {
   content: {
     html: string;
     md: string;
   };
 };
+
+type WithContent<T> = T & MarkdownContent;
 
 export function getAuthor(author: AstroContent & CMS.Author): CMS.Author {
   const { astro, content, Content, file, ...rest } = author;
