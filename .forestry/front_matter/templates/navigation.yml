@@ -97,3 +97,5 @@ fields:
     max: 
     labelField: 
   label: Contact Links
+pages:
+- src/data/navigation.json

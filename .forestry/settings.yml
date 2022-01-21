@@ -12,7 +12,6 @@ sections:
 - type: document
   path: src/data/navigation.json
   label: Navigation
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
