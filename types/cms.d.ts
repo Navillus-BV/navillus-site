@@ -36,7 +36,7 @@ declare namespace CMS {
     | "strapi"
     | "sveltekit"
     | "vercel";
-  type Icon = ContactIcon | ToolIcon;
+  type Icon = ContactIcon | FeatureIcon | ToolIcon;
 
   type Markdown = string;
 

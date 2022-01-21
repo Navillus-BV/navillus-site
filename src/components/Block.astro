@@ -1,9 +1,30 @@
 ---
+import BadgesBlock from './blocks/BadgesBlock.astro'
+import ContactBlock from './blocks/ContactBlock.astro'
+import FeaturesBlock from './blocks/FeaturesBlock.astro'
+
 interface Props {
   block: CMS.Block
 }
 
 const { block } = Astro.props as Props
+
+function isBadgesBlock(block: CMS.Block): block is CMS.BadgesBlock {
+  return block.template === 'badges-block'
+}
+
+function isContactBlock(block: CMS.Block): block is CMS.ContactBlock {
+  return block.template === 'contact-block'
+}
+
+function isFeaturesBlock(block: CMS.Block): block is CMS.FeaturesBlock {
+  return block.template === 'features-block'
+}
+
+const Block = isBadgesBlock(block) ? BadgesBlock
+  : isContactBlock(block) ? ContactBlock
+  : isFeaturesBlock(block) ? FeaturesBlock
+  : undefined
 ---
 
-<h1>TODO</h1>
+{Block && (<Block {...block} />)}
