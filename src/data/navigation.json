@@ -6,6 +6,11 @@
       "id": ""
     },
     {
+      "title": "Blog",
+      "page": "src/data/pages/blog.md",
+      "id": ""
+    },
+    {
       "title": "Services",
       "page": "src/data/pages/jamstack-developers-for-hire.md",
       "id": "services"
