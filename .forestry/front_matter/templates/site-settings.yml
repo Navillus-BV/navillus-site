@@ -8,6 +8,20 @@ fields:
     required: true
   label: Title
   default: Navillus
+- name: description
+  type: text
+  config:
+    required: true
+  label: Description
+  default: We specialize in finding simple solutions to complex software problems.
+    We value data-driven decisions and accessibility over this month's latest tech
+    trends.
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Share Image
+  default: "/uploads/share.png"
 - name: url
   type: text
   config:
