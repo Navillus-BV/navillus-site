@@ -104,7 +104,10 @@ const initMenuInput = (element: MenuInputElement) => {
 
 <style lang="scss">
   header {
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    background: var(--chisel-primary);
   }
 
   a:not(.button) {
@@ -138,8 +141,8 @@ const initMenuInput = (element: MenuInputElement) => {
   }
 
   .top {
-    padding-top: var(--spacer-sm);
-    padding-bottom: var(--spacer-sm);
+    padding-top: var(--spacer-xs);
+    padding-bottom: var(--spacer-xs);
     display: flex;
     align-items: center;
 
