@@ -8,6 +8,12 @@
 
 // @ts-check
 export default /** @type {import('astro').AstroUserConfig} */ ({
-	// Comment out "renderers: []" to enable Astro's default component support.
-	renderers: [],
+  buildOptions: {
+    site: "https://navillus.dev",
+    sitemap: true,
+  },
+  devOptions: {
+    port: 8080,
+  },
+  renderers: [],
 });
