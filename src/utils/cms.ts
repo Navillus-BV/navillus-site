@@ -42,3 +42,29 @@ export function getPage(page: AstroContent & CMS.Page): WithContent<CMS.Page> {
     },
   };
 }
+
+export function dereferencePage(pages: [AstroContent & CMS.Page]) {
+  return function (ref: string): WithContent<CMS.Page> | undefined {
+    const target = ref.replace(/^\/+/g, "");
+
+    const page = pages.find(({ file }) => {
+      return file.pathname.replace(/^\/+/g, "") === target;
+    });
+
+    return page && getPage(page);
+  };
+}
+
+export function normalizeNavigationLink(pages: [AstroContent & CMS.Page]) {
+  const getPage = dereferencePage(pages);
+
+  return function (item: CMS.NavigationLink) {
+    const page = getPage(item.page);
+    return page
+      ? {
+          ...item,
+          page: [page.permalink, item.id].filter(Boolean).join("#"),
+        }
+      : item;
+  };
+}

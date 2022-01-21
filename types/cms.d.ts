@@ -48,23 +48,15 @@ declare namespace CMS {
     twitter_card: "app" | "player" | "summary" | "summary_large_image";
   }
 
+  interface NavigationLink {
+    title: string;
+    page: string;
+    id?: string;
+  }
+
   interface Navigation {
-    pages: [
-      {
-        title: string;
-        page: string;
-        id?: string;
-      }
-    ];
-
-    legal: [
-      {
-        title: string;
-        page: string;
-        id?: string;
-      }
-    ];
-
+    pages: [NavigationLink];
+    legal: [NavigationLink];
     contact: [
       {
         title: string;
