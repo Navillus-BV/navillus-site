@@ -29,7 +29,6 @@ sections:
   match: "*"
   templates:
   - hero-page
-  - collection-page
   - legal-page
 - type: directory
   path: src/data/pages/blog
