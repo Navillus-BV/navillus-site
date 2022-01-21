@@ -21,10 +21,13 @@ function isFeaturesBlock(block: CMS.Block): block is CMS.FeaturesBlock {
   return block.template === 'features-block'
 }
 
-const Block = isBadgesBlock(block) ? BadgesBlock
-  : isContactBlock(block) ? ContactBlock
-  : isFeaturesBlock(block) ? FeaturesBlock
+const Block = isBadgesBlock(block)
+  ? BadgesBlock
+  : isContactBlock(block)
+  ? ContactBlock
+  : isFeaturesBlock(block)
+  ? FeaturesBlock
   : undefined
 ---
 
-{Block && (<Block {...block} />)}
+{Block && <Block {...block} />}

@@ -1,20 +1,21 @@
 ---
 title: Progressively enhancing Svelte with JavaScript
-description: That's right! Your site built with a JS framework with client-side code
+description:
+  That's right! Your site built with a JS framework with client-side code
   can still support users with JS disabled.
-social_image: "/uploads/2021-05-08-progressive-enhancement.jpg"
+social_image: '/uploads/2021-05-08-progressive-enhancement.jpg'
 date: '2021-05-08T17:49:14Z'
 tags:
-- svelte
-- accessibility
-permalink: "/blog/progressive-enhancement"
+  - svelte
+  - accessibility
+permalink: '/blog/progressive-enhancement'
 published: true
 last_modified_at: '2021-06-05T00:00:00Z'
 blocks: []
-tweet_id: "1402315819015622658"
+tweet_id: '1402315819015622658'
 author: src/data/authors/tony-sull.json
-
 ---
+
 We've all heard about "mobile first" designs, but what about JavaScript last? It'll need a catchier name to really stick, but many of us ignore how important it is that basic site functionality works even if JavaScript is disabled or has failed. Browsing the web with JavaScript disabled can be a real pain but it happens more then you'd expect.
 
 My trusty [Kobo Aura H20](https://us.kobobooks.com/products/kobo-aura-h2o-edition-2) has a browser in it, but JavaScript is disabled and frankly there's no way the hardware could handle modern JS-heavy sites. Ride a subway in New York and you'll quickly realize how spotty your cell signal can be, and how broken a site will be if the markup loaded but the 1.3MB of JavaScript didn't finish before your connection dropped out.

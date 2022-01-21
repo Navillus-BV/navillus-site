@@ -2,13 +2,13 @@
 import Footer from '../components/Footer.astro'
 import MainHead from '../components/MainHead.astro'
 import Navigation from '../components/Navigation.astro'
-import { getSeo, WithContent } from '../utils/seo.ts';
+import { getSeo, WithContent } from '../utils/seo.ts'
 
 const { content, ...page } = Astro.props as WithContent<CMS.Page>
 const seo = getSeo(page)
 ---
 
-<html lang='en'>
+<html lang="en">
   <head>
     <MainHead {seo} />
   </head>
@@ -20,7 +20,7 @@ const seo = getSeo(page)
 
     <Navigation pathname={Astro.request.url.pathname} />
 
-    <main id='main'>
+    <main id="main">
       <slot />
 
       {content?.html}

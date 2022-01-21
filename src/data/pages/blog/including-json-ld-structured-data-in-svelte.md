@@ -1,20 +1,21 @@
 ---
 title: Including json+ld structured data in Svelte
-description: Easily add json+ld structured data to pages build in Svelte, with TypeScript
+description:
+  Easily add json+ld structured data to pages build in Svelte, with TypeScript
   type checking!
-social_image: "/uploads/2021-05-17-json-ld-in-sveltekit.jpg"
+social_image: '/uploads/2021-05-17-json-ld-in-sveltekit.jpg'
 date: '2021-05-17T17:40:47Z'
 tags:
-- svelte
-- seo
-permalink: "/blog/json-ld-in-sveltekit"
+  - svelte
+  - seo
+permalink: '/blog/json-ld-in-sveltekit'
 published: true
 last_modified_at: '2021-06-05T00:00:00Z'
 blocks: []
 tweet_id: ''
 author: src/data/authors/tony-sull.json
-
 ---
+
 Ever wonder how Google search results include shopping results for products, or location results for local businesses? Their search bot is constantly being improved to better find that kind of content on your site, but ultimately if you care at all about SEO on your site it's important to include [structured data](https://schema.org/) on the page.
 
 Structured data allows you to give search bots scrubbing your page a helping hand by adding metadata that describes your [business](https://schema.org/Organization), [product](https://schema.org/Product), or even your [blog posts](https://schema.org/BlogPosting).

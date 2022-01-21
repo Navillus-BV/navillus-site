@@ -1,19 +1,19 @@
 ---
 title: Astro + Foresty CMS Revisited
 description: Static sites powered by Forestry's git-based CMS, made even easier.
-social_image: "/uploads/2021-08-03-astro-plus-forestry-revisited.jpg"
+social_image: '/uploads/2021-08-03-astro-plus-forestry-revisited.jpg'
 date: '2021-08-03T17:28:39Z'
 last_modified_at: ''
 tags:
-- astro
-- cms
-permalink: "/blog/astro-plus-forestry-revisited"
+  - astro
+  - cms
+permalink: '/blog/astro-plus-forestry-revisited'
 published: true
 blocks: []
-tweet_id: "1422604180984934404"
+tweet_id: '1422604180984934404'
 author: src/data/authors/tony-sull.json
-
 ---
+
 It's been just over a month since the original [Astro + Forestry CMS](/blog/astro-plus-forestry) demo, but things have been [moving quickly](https://github.com/snowpackjs/astro/blob/main/packages/astro/CHANGELOG.md) in Astro land! We'll build upon the original demo, go ahead and check out the first post if you haven't done so already!
 
 **tl;dr;** We received some great feedback from [Forestry](https://twitter.com/forestryio) after the original demo was released. I had been holding off on revisiting that post until a few Astro features were released. Check out the [live demo](https://demo-astro-forestry.netlify.app), or dive into the main [diff](https://github.com/Navillus-BV/demo-astro-forestry/commit/8660fb54988390b3a27d65a3abfe784725d789df) that includes most of the updates listed below.

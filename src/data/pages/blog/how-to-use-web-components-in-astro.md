@@ -1,20 +1,21 @@
 ---
 title: How to use Web Components in Astro
-description: Building custom elements in plain old JavaScript + trying out the new
+description:
+  Building custom elements in plain old JavaScript + trying out the new
   Astro.resolve() API!
-social_image: "/uploads/2021-08-23-web-components-in-astro.jpg"
+social_image: '/uploads/2021-08-23-web-components-in-astro.jpg'
 date: '2021-08-23T17:51:19Z'
 tags:
-- astro
-- web components
-permalink: "/blog/web-components-in-astro"
+  - astro
+  - web components
+permalink: '/blog/web-components-in-astro'
 published: true
 last_modified_at: ''
 blocks: []
-tweet_id: "1429903001574068232"
+tweet_id: '1429903001574068232'
 author: src/data/authors/tony-sull.json
-
 ---
+
 Web components have had a bit of a rocky past, to put it lightly. The API design has gone through multiple iterations, a few unexpected [rough edges](https://thenewobjective.com/web-development/a-criticism-of-web-components) really hindered their usefulness. And if it wasn't already confusing enough, the level of excitement around the vision of custom elements has led to [over **50**](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/) different patterns and frameworks to get the job done.
 
 I've honestly not given custom elements much of a chance since the early iterations of the spec, and its about time I give it a proper chance again. Like many web developers I really love the vision of having a standard for building native custom components without reaching for the [usual](https://reactjs.org) [JavaScript](https://svelte.dev) [frameworks](https://vuejs.org).

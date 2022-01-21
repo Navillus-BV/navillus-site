@@ -8,10 +8,15 @@ interface Props {
 
 const { seo } = Astro.props as Props
 const { title, description, image, canonical } = seo
-const { author, twitter_card, twitter_handle, title: siteTitle } = site as CMS.SiteSettings
+const {
+  author,
+  twitter_card,
+  twitter_handle,
+  title: siteTitle,
+} = site as CMS.SiteSettings
 
-const imageAbsolute = permalinkToCanonical(image);
-const blogRssFeed = permalinkToCanonical('/feed/blog.xml');
+const imageAbsolute = permalinkToCanonical(image)
+const blogRssFeed = permalinkToCanonical('/feed/blog.xml')
 ---
 
 <!-- Common -->
@@ -45,7 +50,8 @@ const blogRssFeed = permalinkToCanonical('/feed/blog.xml');
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="application-name" content={siteTitle} />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"
+/>
 <meta name="apple-mobile-web-app-title" content={siteTitle} />
 
 <!-- Open Graph -->

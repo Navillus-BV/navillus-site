@@ -1,20 +1,20 @@
 ---
 title: Astro + Snipcart
 description: Scalable e-commerce made easy with the Jamstack.
-social_image: "/uploads/2021-07-02-astro-plus-snipcart.jpg"
+social_image: '/uploads/2021-07-02-astro-plus-snipcart.jpg'
 date: '2021-07-03T17:33:42Z'
 tags:
-- astro
-- snipcart
-- jamstack
-permalink: "/blog/astro-plus-snipcart"
+  - astro
+  - snipcart
+  - jamstack
+permalink: '/blog/astro-plus-snipcart'
 published: true
 last_modified_at: ''
 blocks: []
-tweet_id: "1411055265479368707"
+tweet_id: '1411055265479368707'
 author: src/data/authors/tony-sull.json
-
 ---
+
 **tl;dr;** Check out the live demo [here](https://demo-astro-snipcart.netlify.app/), or if you're feeling brave dive right into the [GitHub Repo](https://github.com/Navillus-BV/demo-astro-snipcart) begging for a refactor!
 
 ## Preface

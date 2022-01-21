@@ -11,7 +11,9 @@ interface Props {
 
 const { pathname } = Astro.props as Props
 
-const normalizeLink = normalizeNavigationLink(Astro.fetchContent('../data/pages/**/*.md'));
+const normalizeLink = normalizeNavigationLink(
+  Astro.fetchContent('../data/pages/**/*.md')
+)
 
 const pages = (navigation as CMS.Navigation).pages.map(normalizeLink)
 
@@ -46,12 +48,16 @@ const initMenuInput = (element: MenuInputElement) => {
     <nav>
       <ul>
         {pages.map(({ title, page }) => (
-                <li>
-                    <a class="hover:outline" href={page} aria-current={pathname === page}>
-                        {title}
-                    </a>
-                </li>
-            ))}
+          <li>
+            <a
+              class="hover:outline"
+              href={page}
+              aria-current={pathname === page}
+            >
+              {title}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
 

@@ -4,10 +4,10 @@ title: Terms & Conditions
 description:
   We specialize in finding simple solutions to complex software problems.
   We value data-driven decisions and accessibility over this month's latest tech trends.
-date: "2020-05-03T16:49:40Z"
-last_modified_at: "2020-05-03T16:49:40Z"
-permalink: "/terms"
-social_image: ""
+date: '2020-05-03T16:49:40Z'
+last_modified_at: '2020-05-03T16:49:40Z'
+permalink: '/terms'
+social_image: ''
 published: true
 ---
 

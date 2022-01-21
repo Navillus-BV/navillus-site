@@ -1,15 +1,15 @@
 ---
 title: Converting our site to Astro
 description: Spoiler - you probably don't need a kitchen sink framework.
-social_image: "/uploads/2021-07-20-converting-navillus-to-astro.jpg"
-date: "2021-07-20T17:36:12Z"
+social_image: '/uploads/2021-07-20-converting-navillus-to-astro.jpg'
+date: '2021-07-20T17:36:12Z'
 tags:
   - astro
-permalink: "/blog/converting-navillus-to-astro"
+permalink: '/blog/converting-navillus-to-astro'
 published: true
-last_modified_at: "2021-07-20T00:00:00Z"
+last_modified_at: '2021-07-20T00:00:00Z'
 blocks: []
-tweet_id: "1417535981058764809"
+tweet_id: '1417535981058764809'
 author: src/data/authors/tony-sull.json
 ---
 

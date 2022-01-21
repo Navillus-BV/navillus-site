@@ -1,20 +1,21 @@
 ---
 title: The power of simplicity
-description: It's easy to get swept up in the latest libraries and platforms, but
+description:
+  It's easy to get swept up in the latest libraries and platforms, but
   don't underestimate the time savings of "boring" tech.
-social_image: "/uploads/2021-08-07-power-of-simplicity.jpg"
+social_image: '/uploads/2021-08-07-power-of-simplicity.jpg'
 date: '2021-08-07T17:42:35Z'
 tags:
-- jamstack
-- intro
-permalink: "/blog/power-of-simplicity"
+  - jamstack
+  - intro
+permalink: '/blog/power-of-simplicity'
 published: true
 last_modified_at: ''
 blocks: []
-tweet_id: "1424057461368135681"
+tweet_id: '1424057461368135681'
 author: src/data/authors/tony-sull.json
-
 ---
+
 Our last post highlighted the benefits of using [Astro](https://astro.build) and [Forestry CMS](https://forestry.io) (catch up [here](/blog/astro-plus-forestry-revisited) in case you missed it). Forestry actually shared our post with a really important point that I thought was worth digging into with a proper blog post.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The beauty of embracing open formats like Markdown and JSON on top of Git is that a CMS you designed more than 5 years ago, works perfectly with the latest modern web tooling.<br><br>Now go check <a href="https://twitter.com/astrodotbuild?ref_src=twsrc%5Etfw">@astrodotbuild</a> to ship faster websites 🚀 <a href="https://t.co/0o6OgCfkgx">https://t.co/0o6OgCfkgx</a></p>&mdash; Forestry CMS (@forestryio) <a href="https://twitter.com/forestryio/status/1423251438063521792?ref_src=twsrc%5Etfw">August 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

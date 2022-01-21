@@ -1,15 +1,16 @@
 ---
 template: legal
 title: Privacy Policy
-description: We specialize in finding simple solutions to complex software problems.
+description:
+  We specialize in finding simple solutions to complex software problems.
   We value data-driven decisions and accessibility over this month's latest tech trends.
 date: '2020-05-03T16:50:48Z'
 last_modified_at: '2020-05-03T16:50:48Z'
-permalink: "/privacy"
+permalink: '/privacy'
 social_image: ''
 published: true
-
 ---
+
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
 We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy is maintained by the [Privacy Policy Generator](https://www.privacypolicies.com/privacy-policy-generator/).

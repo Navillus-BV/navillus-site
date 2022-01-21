@@ -3,10 +3,14 @@ import Icon from './Icon.astro'
 import navigation from '../data/navigation.json'
 import { normalizeNavigationLink } from '../utils/cms.ts'
 
-const normalizeLink = normalizeNavigationLink(Astro.fetchContent('../data/pages/**/*.md'))
+const normalizeLink = normalizeNavigationLink(
+  Astro.fetchContent('../data/pages/**/*.md')
+)
 
 const contact = (navigation as CMS.Navigation).contact
-const legal: CMS.NavigationLink[] = (navigation as CMS.Navigation).legal.map(normalizeLink)
+const legal: CMS.NavigationLink[] = (navigation as CMS.Navigation).legal.map(
+  normalizeLink
+)
 
 const year = new Date().getFullYear()
 ---
