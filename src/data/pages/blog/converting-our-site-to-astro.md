@@ -2,17 +2,17 @@
 title: Converting our site to Astro
 description: Spoiler - you probably don't need a kitchen sink framework.
 social_image: "/uploads/2021-07-20-converting-navillus-to-astro.jpg"
-date: '2022-01-20T17:36:12Z'
+date: "2021-07-20T17:36:12Z"
 tags:
-- astro
+  - astro
 permalink: "/blog/converting-navillus-to-astro"
 published: true
-last_modified_at: '2021-07-20T00:00:00Z'
+last_modified_at: "2021-07-20T00:00:00Z"
 blocks: []
 tweet_id: "1417535981058764809"
 author: src/data/authors/tony-sull.json
-
 ---
+
 Not too long ago, the Navillus site was rewritten from the ground up in [Astro](https://astro.build). Since then we've had quite a bit of interest in why we jumped to Astro, how it went, and what we learned. I'll do my best to answer the common questions here, but feel free to reach out on [Twitter](https://twitter.com/navillus_dev) if we missed anything!
 
 **tl;dr;** Our homepage makes fewer requests (10 vs. 21), is smaller (77kB vs. 123kB), and our JavaScript footprint went down from 31kB to a whopping 2kB!

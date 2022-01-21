@@ -2,7 +2,7 @@
 title: Astro + Snipcart
 description: Scalable e-commerce made easy with the Jamstack.
 social_image: "/uploads/2021-07-02-astro-plus-snipcart.jpg"
-date: '2022-01-20T17:33:42Z'
+date: '2021-07-03T17:33:42Z'
 tags:
 - astro
 - snipcart
