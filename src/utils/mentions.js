@@ -79,6 +79,10 @@ async function _getAllMentions() {
       writeToCache(webmentions)
       return webmentions
     }
+  } else {
+    console.log(
+      `>>> Skipping webmentions check, WEBMENTION_IO_TOKEN not provided`
+    )
   }
   return cache
 }
