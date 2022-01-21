@@ -83,24 +83,25 @@ declare namespace CMS {
       url: string;
     }
 
-    interface Page {
+    interface BasePage {
       permalink: string;
       title: string;
       description: string;
       image: string;
       published: boolean;
       date: string;
+      blocks: Block[];
       last_modified_at?: string;
     }
 
-    interface BlogPostPage extends Page {
+    interface BlogPostPage extends BasePage {
       template: "post";
       author: string;
       tweet_id?: string;
       tags: string[];
     }
 
-    interface HeroPage extends Page {
+    interface HeroPage extends BasePage {
       template: "hero";
       hero: {
         title: string;
@@ -113,11 +114,11 @@ declare namespace CMS {
       };
     }
 
-    interface LegalPage extends Page {
+    interface LegalPage extends BasePage {
       template: "legal";
     }
 
-    interface UIBlock {
+    interface BaseBlock {
       title?: string;
       subtitle?: string;
       id?: string;
@@ -134,12 +135,12 @@ declare namespace CMS {
       items: [BadgesBlockItem];
     }
 
-    interface BadgesBlock extends UIBlock {
+    interface BadgesBlock extends BaseBlock {
       template: "badges-block";
       groups: [BadgesBlockGroup];
     }
 
-    interface ContactBlock extends UIBlock {
+    interface ContactBlock extends BaseBlock {
       template: "contact-block";
       content: Markdown;
     }
@@ -150,11 +151,12 @@ declare namespace CMS {
       content: Markdown;
     }
 
-    interface FeaturesBlock extends UIBlock {
+    interface FeaturesBlock extends BaseBlock {
       template: "features-block";
       items: [FeaturesBlockItem];
     }
 
     type Block = BadgesBlock | ContactBlock | FeaturesBlock;
+    type Page = BlogPostPage | HeroPage | LegalPage;
   }
 }
