@@ -2966,6 +2966,11 @@ nanoid@^3.1.30:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.2.0.tgz#62667522da6673971cca916a6d3eff3f415ff80c"
   integrity sha512-fmsZYa9lpn69Ad5eDn7FMcnnSR+8R34W9qJEijxYhTbfOWzr22n1QxCMzXLK+ODyW2973V3Fux959iQoUxzUIA==
 
+netlify-plugin-cache-folder@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-cache-folder/-/netlify-plugin-cache-folder-0.0.8.tgz#eccee0a053a72ec644aee21e8b05c0fde2c22a8d"
+  integrity sha512-Zj5C/OVI5+njzo19bQAgnpHpv91mZCqrOg9MpS9bMpSZhBkmPmgSV1LUqxvVzQszbZXC23hXoaLQXFqPvxNRrg==
+
 nlcst-to-string@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/nlcst-to-string/-/nlcst-to-string-2.0.4.tgz#9315dfab80882bbfd86ddf1b706f53622dc400cc"

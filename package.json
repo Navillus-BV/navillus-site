@@ -17,6 +17,7 @@
     "lodash": "^4.17.21",
     "markdown-reading-time": "^0.1.1",
     "nano-markdown": "^1.2.1",
+    "netlify-plugin-cache-folder": "^0.0.8",
     "prettier": "^2.5.1",
     "prettier-plugin-astro": "^0.0.11"
   }
