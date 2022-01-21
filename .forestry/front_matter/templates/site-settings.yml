@@ -43,3 +43,5 @@ fields:
       file: 
       path: 
   label: Twitter Card
+pages:
+- src/data/site.json

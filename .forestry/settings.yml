@@ -9,7 +9,6 @@ sections:
 - type: document
   path: src/data/site.json
   label: Site Settings
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
