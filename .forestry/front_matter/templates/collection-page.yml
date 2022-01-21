@@ -2,11 +2,6 @@
 label: Collection Page
 hide_body: true
 fields:
-- name: page
-  type: include
-  config: {}
-  template: page
-  label: Page
 - name: template
   type: text
   config:
@@ -14,3 +9,8 @@ fields:
   hidden: true
   label: Template
   default: collection
+- name: page
+  type: include
+  config: {}
+  template: page
+  label: Page
