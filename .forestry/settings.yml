@@ -25,10 +25,11 @@ sections:
 - type: directory
   path: src/data/pages
   label: Pages
-  create: documents
-  match: "*"
+  create: all
+  match: "**/*"
   templates:
   - hero-page
+  - collection-page
   - legal-page
 - type: directory
   path: src/data/pages/blog
