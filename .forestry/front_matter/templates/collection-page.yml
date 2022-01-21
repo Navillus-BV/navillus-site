@@ -7,3 +7,10 @@ fields:
   config: {}
   template: page
   label: Page
+- name: template
+  type: text
+  config:
+    required: true
+  hidden: true
+  label: Template
+  default: collection
