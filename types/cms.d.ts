@@ -90,17 +90,19 @@ declare namespace CMS {
     tags: string[];
   }
 
+  interface Hero {
+    title: string;
+    subtitle: string;
+    content: string;
+    cta?: {
+      text: string;
+      href: string;
+    };
+  }
+
   interface HeroPage extends BasePage {
     template: "hero";
-    hero: {
-      title: string;
-      subtitle: string;
-      content: string;
-      cta?: {
-        text: string;
-        url: string;
-      };
-    };
+    hero: Hero;
   }
 
   interface LegalPage extends BasePage {

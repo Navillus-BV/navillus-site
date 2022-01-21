@@ -1,5 +1,5 @@
 ---
-import Layout from '../layouts/Base.astro'
+import Layout from '../layouts/Hero.astro'
 import { getPage, isPublished, hasPermalink } from '../utils/cms.ts'
 
 const page = getPage(
@@ -9,6 +9,6 @@ const page = getPage(
 )
 ---
 
-<Layout {page}>
+<Layout {...page}>
 	<h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
 </Layout>

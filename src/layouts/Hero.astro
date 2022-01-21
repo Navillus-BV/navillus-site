@@ -1,0 +1,18 @@
+---
+import Layout from './Base.astro'
+import Block from '../components/Block.astro'
+import Hero from '../components/Hero.astro'
+import type { WithContent } from '../utils/cms.ts'
+
+const { content, ...page } = Astro.props as WithContent<CMS.LegalPage>
+
+const { blocks = [], hero } = page
+---
+
+<Layout {...page}>
+  {hero && <Hero {...hero} />}
+
+  {blocks.map((block) => <Block block={block} />)}
+
+  <slot />
+</Layout>
