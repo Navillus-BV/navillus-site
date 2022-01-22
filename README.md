@@ -1,3 +1,5 @@
+> ARCHIVED:  This was used as a playground to try out an updated project layout and Forestry.io integration. These changes have since been rolled into the main repo, [navillus-dev](https://github.com/Navillus-BV/navillus-dev/).
+
 # Astro Starter Kit: Minimal
 
 ```
