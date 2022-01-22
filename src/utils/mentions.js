@@ -2,7 +2,7 @@ import fs from 'fs'
 import unionBy from 'lodash/unionBy'
 import site from '../data/site.json'
 
-const { domain } = site
+const domain = new URL(site.url).hostname
 
 // Define Cache Location and API Endpoint
 const CACHE_FILE_PATH = '_cache/webmentions.json'
