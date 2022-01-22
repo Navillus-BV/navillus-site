@@ -7,7 +7,7 @@ const { domain } = site
 // Define Cache Location and API Endpoint
 const CACHE_FILE_PATH = '_cache/webmentions.json'
 const API = 'https://webmention.io/api'
-const TOKEN = process.env.WEBMENTION_IO_TOKEN
+const TOKEN = import.meta.env.WEBMENTION_IO_TOKEN
 
 async function fetchWebmentions(since, perPage = 1000) {
   // If we don't have a domain name or token, abort
